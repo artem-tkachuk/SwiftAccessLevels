@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF63C08924DBCA4F009A71A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF63C08824DBCA4F009A71A3 /* main.swift */; };
+		BF63C09224DBCA84009A71A3 /* AnotherFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF63C08F24DBCA83009A71A3 /* AnotherFile.swift */; };
+		BF63C09324DBCA84009A71A3 /* AFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF63C09024DBCA83009A71A3 /* AFile.swift */; };
+		BF63C09424DBCA84009A71A3 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF63C09124DBCA83009A71A3 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,9 @@
 
 /* Begin PBXFileReference section */
 		BF63C08524DBCA4F009A71A3 /* SwiftAccessLevelsProj */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftAccessLevelsProj; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF63C08824DBCA4F009A71A3 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BF63C08F24DBCA83009A71A3 /* AnotherFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnotherFile.swift; sourceTree = "<group>"; };
+		BF63C09024DBCA83009A71A3 /* AFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AFile.swift; sourceTree = "<group>"; };
+		BF63C09124DBCA83009A71A3 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = ../main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,9 @@
 		BF63C08724DBCA4F009A71A3 /* SwiftAccessLevelsProj */ = {
 			isa = PBXGroup;
 			children = (
-				BF63C08824DBCA4F009A71A3 /* main.swift */,
+				BF63C09024DBCA83009A71A3 /* AFile.swift */,
+				BF63C08F24DBCA83009A71A3 /* AnotherFile.swift */,
+				BF63C09124DBCA83009A71A3 /* main.swift */,
 			);
 			path = SwiftAccessLevelsProj;
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF63C08924DBCA4F009A71A3 /* main.swift in Sources */,
+				BF63C09324DBCA84009A71A3 /* AFile.swift in Sources */,
+				BF63C09424DBCA84009A71A3 /* main.swift in Sources */,
+				BF63C09224DBCA84009A71A3 /* AnotherFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
